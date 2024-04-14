@@ -90,7 +90,7 @@ const Index = () => {
       {}
       <Box bg="brand.900" py={8}>
         <Container maxW="container.lg" textAlign="center">
-          <Text color="brand.600">&copy; 2023 Gonzo Labs. All rights reserved.</Text>
+          <Text color="brand.600">&copy; 2024 Gonzo Labs. All rights reserved.</Text>
         </Container>
       </Box>
     </Box>
