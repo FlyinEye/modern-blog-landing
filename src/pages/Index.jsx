@@ -98,9 +98,9 @@ const Index = () => {
             >
               <Image src="https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxibG9nJTIwcG9zdCUyMGltYWdlfGVufDB8fHx8MTcxMzEzNDk2NHww&ixlib=rb-4.0.3&q=80&w=1080" alt="Article 1" borderRadius="md" mb={4} />
               <Heading as="h3" size="lg" mb={2} color="brand.600">
-                AI-Powered Data Insights
+                AI Prompt Engineering
               </Heading>
-              <Text color="brand.600">Discover our cutting-edge AI tool that revolutionizes data analysis. Experience lightning-fast insights and unparalleled accuracy.</Text>
+              <Text color="brand.600">Master the art of crafting effective prompts for AI models. Our expert guide teaches you techniques to optimize AI performance and achieve superior results.</Text>
             </Box>
 
             {}
