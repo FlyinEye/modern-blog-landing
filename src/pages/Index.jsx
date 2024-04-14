@@ -50,8 +50,8 @@ const Index = () => {
         </Container>
       </Box>
 
-      {/* Featured Articles */}
-      <Box py={20}>
+      {}
+      <Box bg="brand.900" py={20}>
         <Container maxW="container.lg">
           <Heading as="h2" size="xl" mb={8} color="brand.600">
             Featured Projects
