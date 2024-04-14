@@ -1,5 +1,6 @@
 import React from "react";
-import { Box, Heading, Text, Flex, Stack, Link, Input, Button, Image, Container, SimpleGrid, Icon } from "@chakra-ui/react";
+import { Box, Heading, Text, Flex, Stack, Input, Button, Image, Container, SimpleGrid, Icon } from "@chakra-ui/react";
+import NavMenu from "../components/NavMenu";
 import { FaEnvelope } from "react-icons/fa";
 
 const Index = () => {
@@ -8,24 +9,11 @@ const Index = () => {
       {}
       <Box bg="brand.900" py={4}>
         <Container maxW="container.lg">
-          <Flex align="center" justify="space-between">
+          <Flex align="center" justify="space-between" width="100%">
             <Heading as="h1" size="lg" color="brand.600">
               Gonzo Labs
             </Heading>
-            <Stack direction="row" spacing={8}>
-              <Link href="/" color="brand.600">
-                Home
-              </Link>
-              <Link href="/projects" color="brand.700">
-                Projects
-              </Link>
-              <Link href="/about" color="brand.700">
-                About
-              </Link>
-              <Link href="/contact" color="brand.700">
-                Contact
-              </Link>
-            </Stack>
+            <NavMenu />
           </Flex>
         </Container>
       </Box>
