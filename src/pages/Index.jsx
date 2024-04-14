@@ -116,9 +116,12 @@ const Index = () => {
             >
               <Image src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwyfHxibG9nJTIwcG9zdCUyMGltYWdlfGVufDB8fHx8MTcxMzEzNDk2NHww&ixlib=rb-4.0.3&q=80&w=1080" alt="Article 2" borderRadius="md" mb={4} />
               <Heading as="h3" size="lg" mb={2} color="brand.600">
-                Generative AI Visuals
+                <Link href="/generative-ai-visuals">Generative AI Visuals</Link>
               </Heading>
               <Text color="brand.600">Explore our groundbreaking AI-powered image generation platform. Create stunning visuals with the power of artificial intelligence.</Text>
+              <Link href="/generative-ai-visuals" color="brand.700" mt={2}>
+                Read more &raquo;
+              </Link>
             </Box>
 
             {}
