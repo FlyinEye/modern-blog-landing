@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Heading, Text, Flex, Stack, Input, Button, Image, Container, SimpleGrid, Icon } from "@chakra-ui/react";
+import { Box, Heading, Text, Flex, Stack, Input, Button, Image, Container, SimpleGrid, Icon, Link } from "@chakra-ui/react";
 import NavMenu from "../components/NavMenu";
 import { FaEnvelope } from "react-icons/fa";
 
@@ -98,9 +98,12 @@ const Index = () => {
             >
               <Image src="https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxibG9nJTIwcG9zdCUyMGltYWdlfGVufDB8fHx8MTcxMzEzNDk2NHww&ixlib=rb-4.0.3&q=80&w=1080" alt="Article 1" borderRadius="md" mb={4} />
               <Heading as="h3" size="lg" mb={2} color="brand.600">
-                AI Prompt Engineering
+                <Link href="/ai-prompt-engineering">AI Prompt Engineering</Link>
               </Heading>
               <Text color="brand.600">Master the art of crafting effective prompts for AI models. Our expert guide teaches you techniques to optimize AI performance and achieve superior results.</Text>
+              <Link href="/ai-prompt-engineering" color="brand.700" mt={2}>
+                Read more &raquo;
+              </Link>
             </Box>
 
             {}
