@@ -2,6 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Index from "./pages/Index.jsx";
 import ArticleAIPrompt from "./pages/ArticleAIPrompt.jsx";
 import ArticleGenerativeAI from "./pages/ArticleGenerativeAI.jsx";
+import ArticleAIConsulting from "./pages/ArticleAIConsulting.jsx";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Route exact path="/" element={<Index />} />
         <Route path="/ai-prompt-engineering" element={<ArticleAIPrompt />} />
         <Route path="/generative-ai-visuals" element={<ArticleGenerativeAI />} />
+        <Route path="/ai-consulting-services" element={<ArticleAIConsulting />} />
       </Routes>
     </Router>
   );
