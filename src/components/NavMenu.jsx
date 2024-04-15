@@ -11,6 +11,9 @@ const MenuItems = () => {
       <Link href="/projects" _hover={{ color: "brand.700" }}>
         Projects
       </Link>
+      <Link href="/projects" _hover={{ color: "brand.700" }}>
+        Projects
+      </Link>
       <Link href="/about" _hover={{ color: "brand.700" }}>
         About
       </Link>
